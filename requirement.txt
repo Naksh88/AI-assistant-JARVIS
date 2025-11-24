@@ -1,0 +1,22 @@
+Certainly! Here are the core technologies and Python modules used in the "Jarvis" AI assistant project:
+
+### **Technologies**
+
+1.  **Speech-to-Text (STT)**: This technology converts your spoken words into text that the program can understand. The project uses Google's Speech Recognition API to achieve this.[1][7]
+
+2.  **Text-to-Speech (TTS)**: This technology converts the program's text responses into audible speech, allowing the assistant to talk back to you.[5]
+
+3.  **API (Application Programming Interface)**: The Google Speech API is used to process the voice commands. This is a web-based service that handles the heavy lifting of speech recognition.[2]
+
+### **Python Modules Used**
+
+1.  **`pyttsx3`**: This is the primary module for **Text-to-Speech (TTS)**. It allows the Python script to speak the text responses, acting as the "voice" of Jarvis.
+
+2.  **`SpeechRecognition`**: This module is used for **Speech-to-Text (STT)**. It captures audio from your microphone and sends it to the Google Speech API to be converted into text.[1]
+
+3.  **`os`**: This module provides a way of using **operating system** dependent functionality. In this project, it's used to open desktop applications like Chrome, Spotify, and VS Code by finding their file paths and executing them.[1]
+
+4.  **`webbrowser`**: This is a simple module used to **open and control your web browser**. It's used to launch websites like Google, YouTube, and Perplexity.[1]
+
+5.  **`datetime`**: This is a standard Python module used to get the **current time and date**, which allows Jarvis to greet you properly and answer time-related questions.[1]
+
